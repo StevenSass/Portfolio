@@ -1,0 +1,53 @@
+.presentation {
+  padding: 0em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: var(--primary);
+    font-size: 2em;
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    &__part1 {
+      position: relative;
+      &__name {
+        font-weight: 700;
+        color: var(--primary);
+        font-size: 1.4rem;
+      }
+      &__text {
+        margin-left: 1em;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+    &__part2 {
+      &__text {
+        margin-left: 3em;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+    &__part3 {
+      &__text1 {
+      }
+      &__text2 {
+      }
+      display: flex;
+      flex-direction: column;
+    }
+    &__part4 {
+      &__text {
+        margin-left: 2em;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+}

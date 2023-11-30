@@ -1,0 +1,90 @@
+[
+    {
+        "id": "ertg65847dh",
+        "langage": "HTML",
+        "cover": "",
+        "logo": "https://i.goopics.net/a6vl84.png",
+        "description" : [
+          "Maîtrise HTML5 : Utilisation avancée des balises HTML5 pour structurer des pages web modernes.",
+          "Sémantique et accessibilité : Utilisation appropriée des balises sémantiques pour améliorer la lisibilité et l'accessibilité.",
+          "Formulaires interactifs : Création de formulaires interactifs en utilisant les fonctionnalités HTML5 pour une meilleure expérience utilisateur.",
+          "Multimédia intégré : Intégration de contenus multimédias tels que vidéos, audios et images avec les balises HTML adéquates."
+		  ]
+    },
+    {
+      "id": "ertg65847dh",
+      "langage": "CSS",
+      "cover": "",
+      "logo": "https://i.goopics.net/999tnx.png",
+      "description" : [
+        "Maîtrise de CSS3 : Utilisation avancée des propriétés CSS3 pour la mise en forme et la présentation des pages web.",
+        "Responsive Design : Création de mises en page réactives pour une expérience utilisateur optimale sur différents appareils.",
+        "Flexbox et Grid : Utilisation experte des modèles de disposition modernes pour des mises en page flexibles et complexes.",
+        "Animations et transitions : Utilisation de CSS pour créer des animations, des transitions et des effets visuels attrayants."
+      ]
+    },
+    {
+        "id": "qzgsg78s785g",
+        "langage": "Sass",
+        "cover": "",
+        "logo": "https://i.goopics.net/ru1t72.png",
+        "description" : [
+          "Maîtrise de Sass : Utilisation avancée du préprocesseur Sass pour écrire des feuilles de style CSS plus efficaces et modulaires.",
+          "Variables Sass : Utilisation de variables pour stocker et réutiliser des valeurs, simplifiant ainsi la maintenance du code.",
+          "Nesting : Structuration claire du code en utilisant le nesting pour définir des règles CSS imbriquées, améliorant la lisibilité.",
+          "Mixins et fonctions : Création de mixins et de fonctions pour réutiliser des blocs de styles et simplifier les modifications globales.",
+          "Utilisation avancée des sélecteurs : Utilisation de fonctionnalités avancées comme les sélecteurs parent (&) pour des styles plus dynamiques."
+		  ]
+    },
+    {
+        "id": "hg5r6ed784hjd",
+        "langage": "Javascript",
+        "cover": "",
+        "logo": "https://i.goopics.net/i5tiu6.png",
+        "description" : [
+          "Maîtrise HTML5 : Structuration sémantique des pages web.",
+          "CSS3 (Flexbox/Grid) : Mise en forme avancée, layouts responsives.",
+          "Responsive Design : Adaptabilité sur tous les appareils.",
+          "Compatibilité multi-navigateurs : Résolution des problèmes de compatibilité.",
+          "Débogage/Inspection : Identification rapide des problèmes de style et de mise en page.",
+          "Accessibilité : Respect des normes pour une utilisation plus large."
+	  	]
+    },
+    {
+        "id": "5k7tuy5rft",
+        "langage": "React",
+        "cover": "",
+        "logo": "https://i.goopics.net/rwwjeu.png",
+        "description" : [
+          "Maîtrise de React : Développement d'interfaces utilisateur réactives.",
+          "Composants réutilisables : Création de modules modulaires pour extensibilité.",
+          "Routing avec React Router : Mise en place de la navigation entre les différentes vues de l'application.",
+          "Connaissances avancées en JavaScript (ES6+) : Utilisation des fonctionnalités modernes pour optimiser le code React."
+	  	]
+    },
+    {
+        "id": "5k7tuy5rft",
+        "langage": "Git / Github",
+        "cover": "",
+        "logo": "https://i.goopics.net/pvo94c.png",
+        "description" : [
+          "Gestion des dépôts : Création, gestion et maintenance des dépôts (repositories) sur GitHub.",
+          "Collaboration : Utilisation d'outils de collaboration tels que pull requests, issues et forks pour travailler efficacement en équipe.",
+          "Maîtrise de Git : Utilisation avancée de Git pour la gestion du contrôle de version et la gestion des branches.",
+          "Résolution de conflits : Capacité à résoudre efficacement les conflits de fusion (merge conflicts) dans le code."
+	  	]
+    },
+    {
+        "id": "k574ytg5j4fgj",
+        "langage": "React / Redux",
+        "cover": "",
+        "logo": "https://i.goopics.net/uqc3bk.png",
+        "description" : [
+          "Configuration et Utilisation de Redux : Mise en place de stores Redux pour gérer l'état global de l'application de manière efficace.",
+          "Actions et Reducers : Création d'actions et de reducers pour décrire les changements d'état de l'application.",
+          "Intégration avec React : Utilisation de React-Redux pour connecter les composants React avec le store Redux.",
+          "Débogage Redux : Utilisation d'outils comme Redux DevTools pour déboguer, inspecter et suivre les actions et l'état de l'application.",
+          "Connaissance pratique de redux-persist pour la sauvegarde et la restauration persistante de l'état Redux"
+	  	]
+    }
+]

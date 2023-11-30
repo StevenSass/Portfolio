@@ -1,0 +1,31 @@
+.card {
+  width: 30%;
+  height: fit-content;
+  border: 1px solid;
+}
+.card__img {
+  margin: 5%;
+  padding: 2%;
+  width: 90%;
+  height: 50%;
+  border: 1px solid;
+}
+.card__content__title {
+  margin: 5%;
+  border: 1px solid;
+  text-align: center;
+}
+.card__content__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  margin: 5%;
+  width: 90%;
+}
+.card__content__link a {
+  text-align: center;
+  width: 50%;
+  border: 1px solid;
+}

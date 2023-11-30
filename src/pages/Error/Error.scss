@@ -1,0 +1,25 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: 5em;
+        color: var(--primary);
+    }
+
+    &__text {
+        font-size: 3em;
+    }
+
+    &__text-link {
+        font-size: 2.5em;
+        & a {
+            color: var(--primary);
+            &:hover {
+                color: var(--accent);
+            }
+        }
+    }
+}

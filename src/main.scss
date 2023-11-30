@@ -1,0 +1,111 @@
+@import "./components/Header/Header.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/Carrousel/Carrousel.scss";
+@import "./components/Project/Project.scss";
+@import "./components/Card/Card.scss";
+
+@import "./components/Project/Project.scss";
+@import "./components/Parcours/Parcours.scss";
+@import "./components/Presentation/Presentation.scss";
+@import "./pages/Error/Error.scss";
+
+@import "./components/Test/test.scss";
+
+@import "./pages/Home/Home.scss";
+
+@import "./themes.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Playball:700|Playball:400");
+
+@import url("https://fonts.googleapis.com/css?family=Spectral:700|Spectral:400");
+
+body {
+  font-family: "Spectral";
+  font-weight: 400;
+}
+
+p, li {
+  font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Spectral";
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1 {
+  font-size: 4.21rem; /* 67.36px */
+  font-family: "Playball";
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+  font-size: 0.75rem; /* 12px */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p,
+li,
+a,
+button,
+svg {
+  color: var(--text);
+}
+
+#root {
+  background-color: var(--background);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 1;
+}
+
+a {
+  text-decoration: none;
+}
