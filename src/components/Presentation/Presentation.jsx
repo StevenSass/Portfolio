@@ -1,10 +1,5 @@
 import { motion } from "framer-motion";
 
-const animation = {
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 },
-};
-
 function Presentation() {
   return (
     <motion.section

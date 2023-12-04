@@ -1,5 +1,4 @@
 import { useState } from "react";
-import data from "../../data/project.json";
 import github from "../../img/github.svg";
 import site from "../../img/window-restore-regular.svg";
 import { createPortal } from "react-dom";
