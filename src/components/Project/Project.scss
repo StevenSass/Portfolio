@@ -1,33 +1,53 @@
 .project {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  align-content: center;
   padding: 0em 5em 5em 5em;
-  gap: 2em;
-  &__filter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  overflow: hidden;
+  &__section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    gap: 2em;
     justify-content: center;
-    gap: 5%;
-    &__item {
-      padding: 1em;
-      border: 1px solid;
+    align-items: center;
+    overflow: hidden;
+
+    &__plus {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 2em;
+      justify-content: center;
+      align-items: center;
     }
   }
 
-  &__list {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    padding: 2em;
-    border: 1px solid;
-    &__card {
-      width: 30%;
-      min-height: 150px;
-      border: 1px solid;
+  &__plus {
+    &__text {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5em;
+      cursor: pointer;
+      &:hover {
+        & p,
+        svg {
+          color: var(--accent);
+        }
+      }
+      & p {
+        font-size: 1.8vw;
+        color: var(--primary);
+      }
+      & svg {
+        font-size: 1.8vw;
+        color: var(--primary);
+      }
     }
   }
 }

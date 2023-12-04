@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom";
-
 function Footer() {
   return (
     <div className="footer">
-      <Link>Contact</Link>
-      <a href="">Github</a>
-      <a href="">Linkedin</a>
+      <p>Créé avec React, Sass, Framer Motion et FontAwesome.</p>
+      <a href="https://github">Github</a>
+      <a href="https://github">Linkedin</a>
     </div>
   );
 }

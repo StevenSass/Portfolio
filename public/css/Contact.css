@@ -1,0 +1,51 @@
+.contact {
+  padding: 0em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact h2 {
+  font-size: 2em;
+  color: var(--primary);
+}
+.contact__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+.contact__form label {
+  color: var(--primary);
+  font-size: 1.4em;
+}
+.contact__form input,
+.contact__form textarea {
+  width: 80%;
+  height: 3em;
+  color: var(--text);
+  font-size: 1.2em;
+  padding: 1em;
+  background-color: var(--background);
+  border: 1px solid var(--text);
+  border-radius: 5px;
+}
+.contact__form input:focus,
+.contact__form textarea:focus {
+  outline: 2px solid var(--primary);
+}
+.contact__form textarea {
+  width: 80%;
+  height: 8em;
+}
+.contact__form input[type=submit] {
+  margin-top: 1em;
+  width: 50%;
+  border-radius: 5px;
+  color: var(--primary);
+}
+.contact__form input[type=submit]:hover {
+  outline: 1px solid var(--accent);
+  color: var(--accent);
+}

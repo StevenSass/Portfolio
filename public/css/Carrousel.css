@@ -1,6 +1,6 @@
 .container {
   justify-items: center;
-  height: 480px;
+  height: 600px;
   padding: 0em 5em 5em 5em;
   display: grid;
   grid-template-columns: 0.3fr 1fr 1fr 0.3fr;

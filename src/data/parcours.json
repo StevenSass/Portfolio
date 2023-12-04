@@ -1,0 +1,51 @@
+[
+    {
+        "id": "857jfdt4",
+        "title": "Informatique",
+        "date": "Novembre 2017 / Novembre 2017",
+        "subTitle": "Deal Pc",
+        "text": "Au fil de mon expérience, j'ai perfectionné mes compétences dans l'assemblage minutieux d'ordinateurs, la résolution de divers problèmes lors de réparations et la réalisation de diagnostics pointus pour identifier et résoudre efficacement les dysfonctionnements matériels et logiciels."
+    },
+    {
+        "id": "pok75ezs",
+        "title": "Electronique",
+        "date": "Juin 2018 / Juin 2018",
+        "subTitle": "Société Marc Doumayrou",
+        "text": "Au cours de mon parcours, j'ai développé le domaine de l'électronique en réalisant des opérations de maintenance sur les cartes mères. Mes compétences s'étendent également à la réparation détaillée, au nettoyage méticuleux et à l'assemblage précis de systèmes électroniques, garantissant ainsi un fonctionnement optimal des équipements."
+    },
+    {
+        "id": "9874jerd",
+        "title": "Développement",
+        "date": "Janvier 2019 / Février 2019",
+        "subTitle": "Lycée Pompidou",
+        "text": "Expérience pratique dans le développement web comprenant l'apprentissage actif du code HTML5 et CSS3. Réalisation de projets de création et d'optimisation d'interfaces web en utilisant ces langages, démontrant ainsi une progression substantielle dans le domaine du développement."
+    },
+    {
+        "id": "684gaq46",
+        "title": "Développement",
+        "date": "Septembre 2019 / Octobre 2019",
+        "subTitle": "ElecSpectrum",
+        "text": "Réalisation d'un site Web vitrine, d'une boutique en ligne, d'un forum et d'un blog, utilisant WordPress et l'outil DIVI pour le développement. Contribution significative à la conception d'un serveur pour TPE/PME, ainsi qu'à la supervision opérationnelle d'un drone spécialement conçu par l'entreprise."
+    },
+    {
+        "id": "kiul5748",
+        "title": "Développement",
+        "date": "Fevrier 2020 / Mars 2020",
+        "subTitle": "ElecSpectrum",
+        "text": "Optimisation et amélioration continue du site web, incluant des contributions essentielles à la conception et à l'optimisation d'un serveur dédié aux besoins spécifiques des TPE/PME."
+    },
+    {
+        "id": "a98fzq6d4",
+        "title": "Baccalauréat Professionnel : Systeme Numerique",
+        "date": "2021",
+        "subTitle": "RÉSEAUX INFORMATIQUES ET SYSTÈMES COMMUNICANTS (RISC)",
+        "text": "j'ai développé des compétences pointues en réseaux informatiques, leur configuration, leur sécurisation et la gestion des systèmes communicants, me préparant ainsi à une carrière dans l'informatique et les télécommunications."
+    },
+    {
+        "id": "68lmjl684h",
+        "title": "Formations OpenClassroom",
+        "date": "2023",
+        "subTitle": "Intégrateur Web",
+        "text": "Formé en Intégration Web sur OpenClassrooms, j'ai acquis une solide expertise dans la conversion de maquettes en sites interactifs. Maîtrisant HTML, CSS, React et Redux, je crée des interfaces modernes, mettant en avant une expérience utilisateur fluide et dynamique."
+    }
+]

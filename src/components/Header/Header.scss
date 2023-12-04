@@ -10,7 +10,8 @@
       align-self: center;
       justify-self: center;
     }
-  } 
+  }
+  border-bottom: 1px solid var(--primary);
 }
 
 .dropdown {
@@ -30,6 +31,7 @@
   &__section {
     float: left;
     overflow: hidden;
+
     &:hover .dropdown__section__content {
       display: block;
     }
@@ -41,9 +43,11 @@
       outline: none;
       padding: 0px 5px;
       background-color: inherit;
-      font-family: inherit; /* Important for vertical align on mobile phones */
-      margin: 0; /* Important for vertical align on mobile phones */
+      font-family: inherit;
+      margin: 0;
       margin-bottom: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
       &:hover {
         color: var(--accent);
       }
@@ -56,8 +60,9 @@
       background-color: #f9f9f9;
       min-width: 60px;
       z-index: 1;
-
       p {
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
         background-color: var(--background);
         float: none;
         color: var(--primary);

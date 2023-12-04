@@ -3,44 +3,45 @@
 @import "./components/Carrousel/Carrousel.scss";
 @import "./components/Project/Project.scss";
 @import "./components/Card/Card.scss";
-
-@import "./components/Project/Project.scss";
 @import "./components/Parcours/Parcours.scss";
+@import "./components/Contact/Contact.scss";
 @import "./components/Presentation/Presentation.scss";
 @import "./pages/Error/Error.scss";
-
-@import "./components/Test/test.scss";
 
 @import "./pages/Home/Home.scss";
 
 @import "./themes.scss";
+@import url("https://fonts.googleapis.com/css?family=Playball:700|Playball:400");
+@import url("https://fonts.googleapis.com/css?family=Spectral:700|Spectral:400");
+
+@import "./components/Modal/Modal.scss";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+  }
 }
-
-@import url("https://fonts.googleapis.com/css?family=Playball:700|Playball:400");
-
-@import url("https://fonts.googleapis.com/css?family=Spectral:700|Spectral:400");
 
 body {
   font-family: "Spectral";
   font-weight: 400;
+  user-select: none;
 }
 
-p, li {
-  font-size: 1.2em;
-}
-
-h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: "Spectral";
   font-weight: 700;
+  color: var(--text);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1em;
 }
 
 html {
@@ -73,25 +74,14 @@ small {
   font-size: 0.75rem; /* 12px */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--text);
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1em;
-  font-weight: bold;
-}
-
 p,
 li,
 a,
 button,
 svg {
+  font-size: 1.2em;
   color: var(--text);
+  text-decoration: none;
 }
 
 #root {
@@ -103,9 +93,5 @@ svg {
 }
 
 main {
-  flex: 1 1;
-}
-
-a {
-  text-decoration: none;
+  flex: 1;
 }

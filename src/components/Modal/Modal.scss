@@ -1,0 +1,118 @@
+.overlay {
+  position: fixed;
+  inset: 0px;
+  background-color: rgba(0, 0, 0, 0.371);
+  filter: brightness(0.65);
+  z-index: 5;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  inset: 15%;
+  position: fixed;
+  left: 30%;
+  z-index: 10;
+  width: 40%;
+  background-color: var(--background);
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  height: 65%;
+  &__close {
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    &__button {
+      & svg {
+        width: 1.3em;
+        height: 1.3em;
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: white;
+      border-radius: 5px;
+      width: 2em;
+      height: 2em;
+      background-color: var(--primary);
+    }
+  }
+  &__carousel {
+    padding: 1em 3em 1em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__section {
+      height: 20em;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1em;
+      &__arrow-left {
+        color: var(--primary);
+        font-size: 2em;
+        cursor: pointer;
+        &:hover {
+          color: var(--accent);
+        }
+      }
+
+      &__img {
+        object-fit: cover;
+        width: 90%;
+        height: 100%;
+        border-radius: 10px;
+        border: 1px solid var(--primary);
+      }
+
+      &__arrow-right {
+        color: var(--primary);
+        font-size: 2em;
+        cursor: pointer;
+        &:hover {
+          color: var(--accent);
+        }
+      }
+    }
+    &__dots {
+      margin-top: -5%;
+      display: flex;
+      flex-direction: row;
+      gap: 0.5em;
+      &__dot {
+        &.selected {
+          background-color: var(--primary);
+        }
+        width: 1em;
+        height: 1em;
+        border: 3px solid var(--primary);
+        border-radius: 100%;
+      }
+    }
+  }
+  &__tags {
+    & li {
+      font-size: 1.4em;
+      list-style: none;
+      color: var(--primary);
+    }
+
+    padding: 3% 3em 0em 3em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+  &__description {
+    color: var(--text);
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0em 5em 1em 5em;
+  }
+}
