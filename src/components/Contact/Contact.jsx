@@ -3,14 +3,16 @@ import "./Contact.scss";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
+const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+const publicId = process.env.REACT_APP_YOUR_PUBLIC_ID;
+
 function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const serviceId = "";
-    const templateId = "";
-    const publicId = "";
+
     emailjs.sendForm(serviceId, templateId, form.current, publicId).then(
       (result) => {
         console.log(result.text);
