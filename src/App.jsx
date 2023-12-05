@@ -10,8 +10,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Error />} />
+          <Route path="/Portfolio/" element={<Home />} />
+          <Route path="/Portfolio/*" element={<Error />} />
         </Routes>
         <Footer />
       </Router>
