@@ -1,3 +1,5 @@
+import "./Header.scss";
+
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -22,7 +24,7 @@ function Header() {
 
   return (
     <div className="header">
-      <Link to="/" className="header__link">
+      <Link to="/Portfolio/" className="header__link">
         <h1 className="header__link__title">Portfolio</h1>
       </Link>
       <div className="dropdown">

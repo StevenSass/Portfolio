@@ -1,3 +1,5 @@
+import "./Error.scss";
+
 import { Link } from "react-router-dom";
 
 function Error() {
@@ -8,7 +10,7 @@ function Error() {
         Désolé, la page que vous recherchez est introuvable.
       </p>
       <p className="error__text-link">
-        Vous pouvez retourner à la <Link to="/">page d'accueil</Link>.
+        Vous pouvez retourner à la <Link to="/Portfolio/">page d'accueil</Link>.
       </p>
     </main>
   );

@@ -1,3 +1,5 @@
+import "./Carrousel.scss";
+
 import {
   faChevronLeft,
   faChevronRight,

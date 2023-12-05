@@ -1,3 +1,5 @@
+import "./Presentation.scss";
+
 import { motion } from "framer-motion";
 
 function Presentation() {

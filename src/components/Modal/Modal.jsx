@@ -1,3 +1,5 @@
+import "./Modal.scss";
+
 import React, { useEffect, useState } from "react";
 import {
   faChevronLeft,

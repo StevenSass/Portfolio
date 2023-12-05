@@ -1,3 +1,5 @@
+import "./Parcours.scss";
+
 import React, { useState } from "react";
 import data from "../../data/parcours.json";
 import { motion } from "framer-motion";

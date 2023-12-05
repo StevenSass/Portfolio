@@ -1,3 +1,5 @@
+import "./Card.scss";
+
 import { useState } from "react";
 import github from "../../img/github.svg";
 import site from "../../img/window-restore-regular.svg";
