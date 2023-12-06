@@ -1,0 +1,65 @@
+.parcours {
+  padding: 3em 5em 3em 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  min-height: 23em;
+}
+.parcours h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parcours__timeline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.parcours__timeline__dot {
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  border: solid 4px var(--primary);
+  padding: 3px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.parcours__timeline__dot:hover {
+  border: solid 4px var(--accent);
+}
+.parcours__timeline__dot.selected {
+  background-color: var(--accent);
+}
+.parcours__timeline__bar {
+  margin: 0px -2px;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  width: 10%;
+  height: 4px;
+  border: solid 4px var(--primary);
+}
+.parcours__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parcours__content__header {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.parcours__content__header__title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  justify-content: center;
+}
+.parcours__content__text {
+  min-height: 5em;
+  width: 60%;
+}

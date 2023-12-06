@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Playball:700|Playball:400");
+@import url("https://fonts.googleapis.com/css?family=Spectral:700|Spectral:400");
+:root {
+  --text: #04081b;
+  --background: #e2e3e9;
+  --primary: #4d18af;
+  --secondary: #f3d2f9;
+  --accent: #c31fe0;
+}
+
+:root[theme=dark] {
+  --text: #e4e8fb;
+  --background: #16171d;
+  --primary: #8550e7;
+  --secondary: #27062d;
+  --accent: #c31fe0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  font-family: "Spectral";
+  font-weight: 400;
+  user-select: none;
+}
+
+h2 {
+  font-family: "Spectral";
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: "Spectral";
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.7em;
+}
+
+h1 {
+  font-size: 4.21rem; /* 67.36px */
+  font-family: "Playball";
+  font-weight: 700;
+}
+
+p,
+li,
+a,
+button,
+svg {
+  font-size: 1.1em;
+  color: var(--text);
+  text-decoration: none;
+}
+
+#root {
+  background-color: var(--background);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 1;
+}
