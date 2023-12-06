@@ -1,64 +1,119 @@
 [
-    {
-        "id": "8tj7d4sge894",
-        "projetname": "Booki",
-        "cover": "https://i.goopics.net/a4vddb.png",
-        "pictures": [
-			"https://i.goopics.net/a4vddb.png",
-			"https://i.goopics.net/t92s7p.png"
-		],
-        "link": {
-			"github": "https://github.com/StevenSass/Projet-3",
-			"site": "https://stevensass.github.io/Projet-3/"
-		},
-        "langage": [
-			"Html",
-			"Css"
-		],
-        "description" : "L'entreprise souhaitait développer un site Internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé(e) d'intégrer l'interface du site à l'aide de code HTML et CSS."
+  {
+    "id": "8tj7d4sge894",
+    "projetname": "Booki",
+    "projetNumber": 2,
+    "cover": "https://i.goopics.net/a4vddb.png",
+    "pictures": [
+      "https://i.goopics.net/a4vddb.png",
+      "https://i.goopics.net/t92s7p.png"
+    ],
+    "link": {
+      "github": "https://github.com/StevenSass/Projet-3",
+      "site": "https://stevensass.github.io/Projet-3/"
     },
-	{
-        "id": "6785gy4j",
-        "projetname": "OhMyFood",
-        "cover": "https://i.goopics.net/gwnywi.png",
-        "pictures": [
-			"https://i.goopics.net/gwnywi.png",
-			"https://i.goopics.net/37isn4.png",
-			"https://i.goopics.net/b2nxjg.png",
-			"https://i.goopics.net/6jthfw.png"
-		],
-        "link": {
-			"github": "https://github.com/StevenSass/P4Steven",
-			"site": "https://stevensass.github.io/P4Steven/"
-		},
-        "langage": [
-			"Html",
-			"Sass"
-		],
-        "description" : "L'entreprise avait pour projet de développer un site de réservation de restaurants en ligne, débutant avec quatre restaurants. J'ai été invité à concevoir l'interface du site web en utilisant HTML et SASS. De plus, j'ai ajouté des animations telles qu'un loader, une animation de clic sur un cœur, et un chargement en cascade des restaurants."
+    "langage": ["Html", "Css"],
+    "description": "L'entreprise souhaitait développer un site Internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé(e) d'intégrer l'interface du site à l'aide de code HTML et CSS."
+  },
+  {
+    "id": "6785gy4j",
+    "projetname": "OhMyFood",
+    "projetNumber": 3,
+    "cover": "https://i.goopics.net/gwnywi.png",
+    "pictures": [
+      "https://i.goopics.net/gwnywi.png",
+      "https://i.goopics.net/37isn4.png",
+      "https://i.goopics.net/b2nxjg.png",
+      "https://i.goopics.net/6jthfw.png"
+    ],
+    "link": {
+      "github": "https://github.com/StevenSass/P4Steven",
+      "site": "https://stevensass.github.io/P4Steven/"
     },
-	{
-        "id": "578j4df9t84j",
-        "projetname": "Print It",
-        "cover": "https://i.goopics.net/vr4l76.png",
-        "pictures": [
-			"https://i.goopics.net/vr4l76.png",
-			"https://i.goopics.net/ku123e.png",
-			"https://i.goopics.net/bmric1.png",
-			"https://i.goopics.net/8paj91.png",
-			"https://i.goopics.net/i2wvzx.png",
-			"https://i.goopics.net/v7ueql.png",
-			"https://i.goopics.net/iq6t6v.png"
-		],
-        "link": {
-			"github": "https://github.com/StevenSass/Projet-5",
-			"site": "https://stevensass.github.io/Projet-5/"
-		},
-        "langage": [
-			"Html",
-			"Css",
-			"Javascript"
-		],
-        "description" : "L'entreprise m'a invité à concevoir un carrousel en JavaScript afin d'amorcer l'implémentation de leur site dynamique. Pour ce faire, j'ai analysé le code HTML et CSS existant, en respectant scrupuleusement les maquettes et les choix techniques préalablement définis. J'ai ensuite intégré le carrousel en accord avec leurs spécifications et leurs exigences."
-    }
+    "langage": ["Html", "Sass"],
+    "description": "L'entreprise avait pour projet de développer un site de réservation de restaurants en ligne, débutant avec quatre restaurants. J'ai été invité à concevoir l'interface du site web en utilisant HTML et SASS. De plus, j'ai ajouté des animations telles qu'un loader, une animation de clic sur un cœur, et un chargement en cascade des restaurants."
+  },
+  {
+    "id": "578j4df9t84j",
+    "projetname": "Print It",
+    "projetNumber": 4,
+    "cover": "https://i.goopics.net/vr4l76.png",
+    "pictures": [
+      "https://i.goopics.net/vr4l76.png",
+      "https://i.goopics.net/ku123e.png",
+      "https://i.goopics.net/bmric1.png",
+      "https://i.goopics.net/8paj91.png",
+      "https://i.goopics.net/i2wvzx.png",
+      "https://i.goopics.net/v7ueql.png",
+      "https://i.goopics.net/iq6t6v.png"
+    ],
+    "link": {
+      "github": "https://github.com/StevenSass/Projet-5",
+      "site": "https://stevensass.github.io/Projet-5/"
+    },
+    "langage": ["Html", "Css", "Javascript"],
+    "description": "L'entreprise m'a invité à concevoir un carrousel en JavaScript afin d'amorcer l'implémentation de leur site dynamique. Pour ce faire, j'ai analysé le code HTML et CSS existant, en respectant scrupuleusement les maquettes et les choix techniques préalablement définis. J'ai ensuite intégré le carrousel en accord avec leurs spécifications et leurs exigences."
+  },
+  {
+    "id": "87hj4dh4d",
+    "projetNumber": 6,
+    "projetname": "Sophie Bluel",
+    "cover": "https://i.goopics.net/s4b5ey.png",
+    "pictures": [
+      "https://i.goopics.net/epw79s.png",
+      "https://i.goopics.net/hdm2ec.png",
+      "https://i.goopics.net/256ppp.png",
+      "https://i.goopics.net/fy5vdl.png",
+      "https://i.goopics.net/x9fala.png",
+      "https://i.goopics.net/45dul2.png",
+      "https://i.goopics.net/68wiqn.png",
+      "https://i.goopics.net/pac49t.png",
+      "https://i.goopics.net/k1y9rr.png",
+      "https://i.goopics.net/sp8m0c.png"
+    ],
+    "link": {
+      "github": "https://github.com/StevenSass/Projet-6"
+    },
+    "langage": ["Html", "Css", "Javascript"],
+    "description": "L'entreprise m'a chargé de concevoir un site web dynamique avec communication API et backend, développé en JavaScript. J'ai créé un carrousel, mis en place un système de connexion, rédigé les pages conformément à la maquette et élaboré le design. Le projet a également impliqué la mise en œuvre de logiques avancées."
+  },
+  {
+    "id": "l98yuh4gk984g",
+    "projetNumber": 8,
+    "projetname": "Kasa",
+    "cover": "https://i.goopics.net/7su2yk.png",
+    "pictures": [
+      "https://i.goopics.net/7su2yk.png",
+      "https://i.goopics.net/jbdlgo.png",
+      "https://i.goopics.net/oxtv3s.png",
+      "https://i.goopics.net/rsf56r.png",
+      "https://i.goopics.net/uao4om.png"
+    ],
+    "link": {
+      "github": "https://github.com/StevenSass/Projet-8/",
+      "site": "https://stevensass.github.io/Projet-8/"
+    },
+    "langage": ["Html", "Css", "React"],
+    "description": "L'entreprise m'a confié la conception d'un site web dynamique, conçu à l'aide du Framework React. J'ai développé un carrousel, implémenté un système de tri et de filtrage, rédigé les pages en suivant la maquette fournie et élaboré le design."
+  },
+  {
+    "id": "tj9684fdrg68514",
+    "projetNumber": 11,
+    "projetname": "Argent Bank",
+    "cover": "https://i.goopics.net/5cor25.png",
+    "pictures": [
+      "https://i.goopics.net/5cor25.png",
+      "https://i.goopics.net/y9mlau.png",
+      "https://i.goopics.net/gvseg5.png",
+      "https://i.goopics.net/ygl96u.png",
+      "https://i.goopics.net/16sde4.png",
+      "https://i.goopics.net/ooanvu.png",
+      "https://i.goopics.net/tw3cu7.png"
+    ],
+    "link": {
+      "github": "https://github.com/StevenSass/Projet-11"
+    },
+    "langage": ["Html", "Css", "React", "Redux", "Redux:Toolkit"],
+    "description": "L'entreprise m'a confié la conception d'un site web dynamique, développé à l'aide du Framework React et des outils Redux et Redux Toolkit. J'ai utilisé React-Persist pour sauvegarder les états. J'ai implémenté un système complet de connexion/déconnexion, ainsi que la collecte et la mise à jour des données utilisateur à partir d'une API externe. J'ai rédigé les pages conformément à la maquette fournie pour l'ensemble du site."
+  }
 ]
