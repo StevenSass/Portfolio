@@ -1,0 +1,39 @@
+.card {
+  width: 30%;
+  height: fit-content;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card:hover {
+  border-color: var(--accent);
+}
+.card:hover .card__content__title {
+  color: var(--accent);
+}
+.card__img {
+  margin: 1em 1em 0em 1em;
+  display: flex;
+  justify-content: center;
+}
+.card__img img {
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  width: 100%;
+}
+.card__content {
+  padding: 0em 1em 0em 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+.card__content__title {
+  color: var(--primary);
+  text-align: center;
+  margin-right: auto;
+}
+.card__content div img {
+  z-index: 4;
+  width: 2vw;
+}

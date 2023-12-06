@@ -58,11 +58,6 @@ function Carrousel() {
       className="container"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}>
-      <div className="dots">
-        <p>
-          {count} / {data.length - 1}
-        </p>
-      </div>
       <div className="arrow-left">
         <FontAwesomeIcon
           icon={faChevronLeft}

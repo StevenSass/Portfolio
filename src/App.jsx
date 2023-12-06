@@ -6,16 +6,14 @@ import Error from "./pages/Error/Error";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/Portfolio/" element={<Home />} />
-          <Route path="/Portfolio/*" element={<Error />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/Portfolio/" element={<Home />} />
+        <Route path="/Portfolio/*" element={<Error />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 

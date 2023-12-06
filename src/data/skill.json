@@ -32,8 +32,7 @@
           "Maîtrise de Sass : Utilisation avancée du préprocesseur Sass pour écrire des feuilles de style CSS plus efficaces et modulaires.",
           "Variables Sass : Utilisation de variables pour stocker et réutiliser des valeurs, simplifiant ainsi la maintenance du code.",
           "Nesting : Structuration claire du code en utilisant le nesting pour définir des règles CSS imbriquées, améliorant la lisibilité.",
-          "Mixins et fonctions : Création de mixins et de fonctions pour réutiliser des blocs de styles et simplifier les modifications globales.",
-          "Utilisation avancée des sélecteurs : Utilisation de fonctionnalités avancées comme les sélecteurs parent (&) pour des styles plus dynamiques."
+          "Mixins et fonctions : Création de mixins et de fonctions pour réutiliser des blocs de styles et simplifier les modifications globales."
 		  ]
     },
     {

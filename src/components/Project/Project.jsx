@@ -43,7 +43,7 @@ function Project() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}>
-            {renderCards(0, 3)}
+            {renderCards(3, 8)}
           </motion.div>
         </div>
       )}

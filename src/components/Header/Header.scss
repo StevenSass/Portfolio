@@ -1,7 +1,8 @@
 .header {
   display: flex;
   flex-direction: row;
-  padding: 1em 3em 1em 3em;
+  padding: 0em 1em 0em 1em;
+  align-items: center;
   &__link {
     margin-right: auto;
     &__title {

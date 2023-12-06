@@ -6,9 +6,7 @@
   grid-template-rows: 0.1fr 0.5fr;
   gap: 1em;
   grid-auto-flow: row;
-  grid-template-areas:
-    "arrow-left comp langage arrow-right"
-    "arrow-left logo text arrow-right";
+  grid-template-areas: "arrow-left comp langage arrow-right" "arrow-left logo text arrow-right";
 }
 
 .dots {
@@ -19,13 +17,6 @@
 }
 
 .arrow-left {
-  & svg {
-    color: var(--primary);
-
-    &:hover {
-      color: var(--accent);
-    }
-  }
   cursor: pointer;
   justify-content: center;
   display: flex;
@@ -33,21 +24,26 @@
   grid-area: arrow-left;
   font-size: 4em;
 }
+.arrow-left svg {
+  color: var(--primary);
+}
+.arrow-left svg:hover {
+  color: var(--accent);
+}
 
 .arrow-right {
-  & svg {
-    color: var(--primary);
-
-    &:hover {
-      color: var(--accent);
-    }
-  }
   cursor: pointer;
   justify-content: center;
   display: flex;
   align-items: center;
   grid-area: arrow-right;
   font-size: 4em;
+}
+.arrow-right svg {
+  color: var(--primary);
+}
+.arrow-right svg:hover {
+  color: var(--accent);
 }
 
 .comp {
@@ -66,17 +62,16 @@
   align-items: flex-start;
   border-radius: 20px;
   grid-area: logo;
-
-  & img {
-    width: 250px;
-    height: 250px;
-    object-fit: scale-down;
-  }
+}
+.logo img {
+  width: 250px;
+  height: 250px;
+  object-fit: scale-down;
 }
 
 .text {
   grid-area: text;
-  & li {
-    list-style: disc;
-  }
+}
+.text li {
+  list-style: disc;
 }

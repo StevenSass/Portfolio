@@ -19,7 +19,6 @@
   background-color: var(--background);
   border: 2px solid var(--primary);
   border-radius: 10px;
-  height: 65%;
   &__close {
     padding: 1em;
     width: 100%;
@@ -47,7 +46,6 @@
     flex-direction: column;
     align-items: center;
     &__section {
-      height: 20em;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -97,7 +95,7 @@
   }
   &__tags {
     & li {
-      font-size: 1.4em;
+      font-weight: 600;
       list-style: none;
       color: var(--primary);
     }
@@ -109,10 +107,10 @@
   }
   &__description {
     color: var(--text);
-    font-size: 1.2em;
+    font-size: 1.1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0em 5em 1em 5em;
+    padding: 0em 3em 1em 3em;
   }
 }

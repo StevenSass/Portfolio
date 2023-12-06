@@ -106,14 +106,12 @@
       "https://i.goopics.net/y9mlau.png",
       "https://i.goopics.net/gvseg5.png",
       "https://i.goopics.net/ygl96u.png",
-      "https://i.goopics.net/16sde4.png",
-      "https://i.goopics.net/ooanvu.png",
       "https://i.goopics.net/tw3cu7.png"
     ],
     "link": {
       "github": "https://github.com/StevenSass/Projet-11"
     },
-    "langage": ["Html", "Css", "React", "Redux", "Redux:Toolkit"],
+    "langage": ["Html", "Css", "React", "Redux:Toolkit"],
     "description": "L'entreprise m'a confié la conception d'un site web dynamique, développé à l'aide du Framework React et des outils Redux et Redux Toolkit. J'ai utilisé React-Persist pour sauvegarder les états. J'ai implémenté un système complet de connexion/déconnexion, ainsi que la collecte et la mise à jour des données utilisateur à partir d'une API externe. J'ai rédigé les pages conformément à la maquette fournie pour l'ensemble du site."
   }
 ]
